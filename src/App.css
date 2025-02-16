@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b3d91; /* Dark blue */
+  background-color: #0c306e; /* Dark blue */
   color: white;
   font-family: 'Arial', sans-serif;
   overflow: hidden;
@@ -15,7 +15,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, #0b3d91 0%, #000 100%);
+  background: radial-gradient(circle, #1f417c 0%, #000 100%);
   z-index: -1;
 }
 
@@ -50,8 +50,8 @@ body {
 /* Title styling */
 h1 {
   font-size: 3rem;
-  color: #ffd700; /* Gold */
-  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+  color: #a3f4ff; /* Gold */
+  text-shadow: 0 0 10px #a3f4ff, 0 0 20px #a3f4ff;
   margin-bottom: 20px;
 }
 
@@ -60,20 +60,20 @@ select {
   padding: 10px;
   font-size: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #ffd700;
+  border: 1px solid #a3f4ff;
   color: white;
   border-radius: 5px;
   margin: 10px;
 }
 select option {
-  background-color: #ffcc00;
+  background-color: #a3f4ff;
   color: #0b3d91;
 }
 /* Button styling */
 button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #ffd700;
+  background-color: #a3f4ff;
   color: #0b3d91;
   border: none;
   border-radius: 5px;
@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color: #ffcc00;
+  background-color: #51b6d4;
 }
 
 /* Clock styling */
@@ -94,15 +94,15 @@ button:hover {
 }
 
 .clock {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(4, 14, 59, 0.733);
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 183, 255, 0.733);
 }
 
 .clock h3 {
   font-size: 1.5rem;
-  color: #ffd700;
+  color: #a3f4ff;
   margin-bottom: 10px;
 }
 

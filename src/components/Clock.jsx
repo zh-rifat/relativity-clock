@@ -30,7 +30,7 @@ const Clock = ({ planet, timeDilationFactor }) => {
       <h3>{planet.name}</h3>
       <svg width="200" height="200" viewBox="0 0 200 200">
         {/* Clock face */}
-        <circle cx="100" cy="100" r="95" fill="#0b3d91" stroke="#ffd700" strokeWidth="2" />
+        <circle cx="100" cy="100" r="95" fill="#2f2f2f" stroke="#a3f4ff" strokeWidth="2" />
         {/* Hour marks */}
         {Array.from({ length: 12 }).map((_, index) => (
           <line
@@ -39,7 +39,7 @@ const Clock = ({ planet, timeDilationFactor }) => {
             y1="10"
             x2="100"
             y2="20"
-            stroke="#ffd700"
+            stroke="#a3f4ff"
             strokeWidth="2"
             transform={`rotate(${index * 30}, 100, 100)`}
           />
@@ -50,7 +50,7 @@ const Clock = ({ planet, timeDilationFactor }) => {
           y1="100"
           x2="100"
           y2="60"
-          stroke="#ffd700"
+          stroke="#a3f4ff"
           strokeWidth="6"
           strokeLinecap="round"
           transform={`rotate(${hourRotation}, 100, 100)`}
@@ -61,7 +61,7 @@ const Clock = ({ planet, timeDilationFactor }) => {
           y1="100"
           x2="100"
           y2="40"
-          stroke="#ffd700"
+          stroke="#a3f4ff"
           strokeWidth="4"
           strokeLinecap="round"
           transform={`rotate(${minuteRotation}, 100, 100)`}
@@ -78,7 +78,7 @@ const Clock = ({ planet, timeDilationFactor }) => {
           transform={`rotate(${secondRotation}, 100, 100)`}
         />
         {/* Center circle */}
-        <circle cx="100" cy="100" r="5" fill="#ffd700" />
+        <circle cx="100" cy="100" r="5" fill="#a3f4ff" />
       </svg>
       {/* Numerical time display */}
       <div className="numerical-time">{formattedTime}</div>
