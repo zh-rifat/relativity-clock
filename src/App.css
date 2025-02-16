@@ -65,7 +65,10 @@ select {
   border-radius: 5px;
   margin: 10px;
 }
-
+select option {
+  background-color: #ffcc00;
+  color: #0b3d91;
+}
 /* Button styling */
 button {
   padding: 10px 20px;
