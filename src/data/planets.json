@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Earth",
+    "mass": 5.972e24,
+    "radius": 6.371e6,
+    "color": "#2E86C1"
+  },
+  {
+    "name": "Mars",
+    "mass": 6.39e23,
+    "radius": 3.3895e6,
+    "color": "#E74C3C"
+  },
+  {
+    "name": "Jupiter",
+    "mass": 1.898e27,
+    "radius": 6.9911e7,
+    "color": "#F1C40F"
+  },
+  {
+    "name": "Black Hole",
+    "mass": 1e31,
+    "radius": 2e4,
+    "color": "#000000"
+  }
+]
